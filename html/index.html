@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Praonica</title>
+</head>
+
+<body>
+  <h1>Unesi podatke</h1>
+  <form action="" method="get" onsubmit="provjera()">
+    <p>
+      <label for="ime">Ime:</label>
+      <input type="text" name="ime" id="ime" />
+    </p>
+    <p>
+      <label for="prezime">Prezime: </label>
+      <input type="text" name="prezime" id="prezime" />
+    </p>
+    <label for="vrsta pranja">Vrsta pranja:</label>
+    <select>
+      <option value="bijelo">Bijelo</option>
+      <option value="šareno">Šareno</option>
+      <option value="ostalo">Ostalo</option>
+    </select>
+    <p>
+      <label for="vrsta plaćanja">Vrsta plaćanja</label>
+      <select>
+        <option value="gotovina">Gotovina</option>
+        <option value="kartica">Kartica</option>
+      </select>
+    </p>
+
+    <p>
+      <input type="submit" value="Ispis">
+    </p>
+  </form>
+
+  <script type="text/javascript" src="../javaScript/praonica.js"></script>
+</body>
+
+</html>
