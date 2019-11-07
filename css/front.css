@@ -10,3 +10,25 @@ background-color:black;
 color: #fff;
 opacity:0.6;
 }
+
+.inUse {
+  background-color: #e0675e;
+  opacity: 0.5;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.turnOff {
+  background-color: #f2963a;
+  opacity: 0.5;
+}
+
+.tekst:before {
+  background-color: #d96a0f;
+  color: white;
+  content: "Nije u upotrebi!";
+  font-size: 20px;
+  text-align: center;
+}
