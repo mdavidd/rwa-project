@@ -65,12 +65,10 @@ $(".btn-outline-danger").on("click", function(){
     $(this).parent().parent().toggleClass("turnOff");
     $(this).parent().parent().toggleClass("tekst");
     $(this).parent().find(".btn-outline-success").toggleClass("disabled");
-    if(isInUse){
-      $(this).text("Turn back ON");
-      isInUse = false;
+    if($(this).text() == "Turn Off"){
+      $(this).text("Turn ON");
     }else{
       $(this).text("Turn Off")
-      isInUse = true;
     }
   }else{
     alert("netocna admin lozinka!");
