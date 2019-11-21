@@ -17,7 +17,7 @@ $("#nastavi").on("click", function() {
     localStorage.setItem("vPranjaKey", vPranja);
     var vPlacanja = $('input[name=vrstePlacanja]:checked').val()
     localStorage.setItem("vPlacanjaKey", vPlacanja);
-    window.location.href = '../html/front.html';
+    window.location.href = '../rwa-project/front.html';
   }
 })
 
